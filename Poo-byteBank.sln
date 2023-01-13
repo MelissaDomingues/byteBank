@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Poo-byteBank", "Poo-byteBan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsuárioConta", "UsuárioConta\UsuárioConta.csproj", "{96340B8A-CD40-4356-952D-DB950D4BFB1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsuárioConta2", "Cientes\UsuárioConta2.csproj", "{0662C393-7208-4C53-BE78-26E9432197DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{96340B8A-CD40-4356-952D-DB950D4BFB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96340B8A-CD40-4356-952D-DB950D4BFB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96340B8A-CD40-4356-952D-DB950D4BFB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0662C393-7208-4C53-BE78-26E9432197DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0662C393-7208-4C53-BE78-26E9432197DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0662C393-7208-4C53-BE78-26E9432197DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0662C393-7208-4C53-BE78-26E9432197DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,12 +1,13 @@
-﻿using Poo_byteBank; 
-namespace Poo_byteBank 
+﻿using Poo_byteBank.Contas;
+
+namespace Poo_byteBank
 {
     public class Program
     {
         public static void Main()
         {
             ContaCorrente contaDoAndre = new ContaCorrente();
-            contaDoAndre.titular = "André Silva";
+            contaDoAndre.titular.nome = "André Silva";
             contaDoAndre.n_Agencia = 15;
             contaDoAndre.conta = "1010-x";
             contaDoAndre.saldo = 100;

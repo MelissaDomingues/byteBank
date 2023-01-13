@@ -1,4 +1,5 @@
-﻿using Poo_byteBank;
+﻿using Poo_byteBank.Titular;
+using Poo_byteBank.Contas;
 
 namespace UsuárioConta
 {
@@ -10,7 +11,7 @@ namespace UsuárioConta
             ContaCorrente a = new ContaCorrente();
             {
                 ContaCorrente contaDoAndre = new ContaCorrente();
-                contaDoAndre.titular = "André Silva";
+                contaDoAndre.titular.nome = "André Silva";
                 contaDoAndre.n_Agencia = 15;
                 contaDoAndre.conta = "1010-x";
                 contaDoAndre.saldo = 100;
@@ -21,7 +22,7 @@ namespace UsuárioConta
                 Console.WriteLine("Saldo da conta: " + contaDoAndre.saldo);
 
                 ContaCorrente contaDaMaria = new ContaCorrente();
-                contaDaMaria.titular = "Maria Rios";
+                contaDaMaria.titular.nome = "Maria Rios";
                 contaDaMaria.n_Agencia = 17;
                 contaDaMaria.conta = "1010-5";
                 contaDaMaria.saldo = 350;
